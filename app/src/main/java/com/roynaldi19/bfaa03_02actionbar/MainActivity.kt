@@ -35,32 +35,30 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this@MainActivity, query, Toast.LENGTH_SHORT).show()
                 searchView.clearFocus()
                 return true
-
             }
 
             override fun onQueryTextChange(newText: String): Boolean {
                 return false
             }
         })
-
         return true
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
+        return when (item.itemId) {
             R.id.menu1 -> {
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.frame_container, MenuFragment())
                     .addToBackStack(null)
                     .commit()
-                return true
+                true
             }
             R.id.menu2 -> {
                 val intent = Intent(this, MenuActivity::class.java)
                 startActivity(intent)
-                return true
+                true
             }
-            else -> return true
+            else -> true
         }
     }
 }
