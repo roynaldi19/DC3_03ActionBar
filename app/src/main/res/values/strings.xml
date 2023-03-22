@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BFAA03_02ActionBar</string>
+    <string name="app_name">dc3_03ActionBar</string>
     <string name="this_activity">Ini adalah menu activity</string>
     <string name="this_fragment">Ini adalah menu fragment</string>
     <string name="search">Search</string>

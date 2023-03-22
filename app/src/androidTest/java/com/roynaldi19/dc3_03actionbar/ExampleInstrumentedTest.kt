@@ -1,4 +1,4 @@
-package com.roynaldi19.bfaa03_02actionbar
+package com.roynaldi19.dc3_03actionbar
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

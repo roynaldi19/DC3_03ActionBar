@@ -1,4 +1,4 @@
-package com.roynaldi19.bfaa03_02actionbar
+package com.roynaldi19.dc3_03actionbar
 
 import android.app.SearchManager
 import android.content.Context
@@ -9,7 +9,7 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
-import com.roynaldi19.bfaa03_02actionbar.databinding.ActivityMainBinding
+import com.roynaldi19.dc3_03actionbar.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
