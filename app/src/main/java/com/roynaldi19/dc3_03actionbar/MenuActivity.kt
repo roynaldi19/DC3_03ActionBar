@@ -24,18 +24,6 @@ class MenuActivity : AppCompatActivity() {
                     Toast.makeText(this@MenuActivity, searchView.text, Toast.LENGTH_SHORT).show()
                     false
                 }
-            searchBar.inflateMenu(R.menu.option_menu)
-            searchBar.setOnMenuItemClickListener { menuItem ->
-                when (menuItem.itemId) {
-                    R.id.menu1 -> {
-                        true
-                    }
-                    R.id.menu2 -> {
-                        true
-                    }
-                    else -> false
-                }
-            }
         }
     }
 }
